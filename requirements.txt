@@ -1,0 +1,8 @@
+torch
+torchvision
+k-diffusion
+diffusers
+pandas
+numpy
+pillow
+huggingface_hub
