@@ -17,6 +17,7 @@ sh verify_sdv1_wb_attack.sh
 
 # Some regurgitated prompts
 Regurgitated prompts can be found in the following parquets. They will be labeled as 'MV','RV' or 'TV' in the 'overfit_type' field:
+
 [deep image floyd](https://huggingface.co/datasets/fraisdufour/templates-verbs/resolve/main/groundtruth_parquets/deep_if_sdv1_wb_groundtruth.parquet)
 
 [midjourney v4](https://huggingface.co/datasets/fraisdufour/templates-verbs/resolve/main/groundtruth_parquets/midjourney_groundtruth.parquet)
