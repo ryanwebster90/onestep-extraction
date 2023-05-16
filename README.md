@@ -8,13 +8,47 @@ pip install -r requirements.txt
 sh verify_sdv1_wb_attack.sh 
 ```
 
-[1] Extracting training data from diffusion models. arXiv preprint arXiv:2301.13188, 2023.
-
 # roadmap
-
 - [x] Verify our ground truth
 - [ ] Perform our whitebox and blackbox attack vs. SDV1, SDV2, DeepIF, etc.
 - [ ] Verify with retrieval / template creation
+
+[1] Extracting training data from diffusion models. arXiv preprint arXiv:2301.13188, 2023.
+
+# Some regurgitated prompts
+
+# Midjourney
+| prompt | type |
+| -------- | --------|
+| Prince Reunites With Warner Brothers, Plans New Album --seed 2 --stylize 0 --stop 10  | Exact   |
+| Will Ferrell, John C. Reilly in Talks for <i>Border Guards</i> --seed 0 --stylize 0 --stop 10   | Exact   |
+| Design Art Light in Dense Fall Forest Landscape Oversized Circle Wall Art --seed 4 --q 2    | Template  |
+| Shaw Floors Spice It Up Tyler Taupe 00103_E9013 --seed 16 --stylize 0 --stop 10   | Template   |
+
+# Stable Diffusion V1 blackbox
+| prompt | type |
+| -------- | --------|
+| Galaxy Women's Leather Boots | Template   |
+|Rambo 5 und Rocky Spin-Off - Sylvester Stallone gibt Updates   | Exact   |
+| Full body U-Zip main opening - Full body U-Zip main opening on front of bag for easy unloading when you get to camp    | Exact    |
+| Mothers influence on her young hippo   | Exact    |
+
+# Deep Image Floyd
+| prompt | type |
+| -------- | --------|
+| Designart Green Abstract Metal Grill ContemporaryArt On Canvas - 5 Panels | Template   |
+| New York Luggage Cover - New York / S - Luggage covers  | Template  |
+| Foyer painted in HABANERO   | Template  |
+| Shaw Floors Value Collections Sandy Hollow Cl II Net Alpine Fern 00305_5E510  | Template   |
+
+# Stable Diffusion V2 blackbox
+| prompt | type |
+| -------- | --------|
+| Pencil pleat curtains in collection Velvet, fabric: 704-18  | Template   |
+| Skull Of A Skeleton With A Burning Cigarette - Vincent Van Gogh Wall Tapestry  | Template   |
+| Shaw Floors Couture' Collection Ultimate Expression 15′ Sahara 00205_19829   |Template   |
+| Sting Like A Bee By Louisa  - Throw Pillow   | Template |
+
 
 # some other files
 
