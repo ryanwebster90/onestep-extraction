@@ -30,7 +30,7 @@ Regurgitated prompts can be found in the following parquets. They will be labele
 
 [realistic vision](https://huggingface.co/datasets/fraisdufour/templates-verbs/resolve/main/groundtruth_parquets/realistic_vision_sdv1_edge_groundtruth.parquet)
 
-*** NOTE: the midjourney images only apply to v4. The new version seems to have mitigated the problem. ***
+*** NOTE: the midjourney images only apply to v4. The new version (v5) seems to have mitigated the problem! So you must append --v 4 to prompts ***
 
 Midjourney examples
 | prompt | type |
