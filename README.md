@@ -1,5 +1,5 @@
 # onestep-extraction 
-In this work, we have "extracted" training images from several diffusion models, similar to [1]. These are generated images which are exact copies of training set ones. Our attack is more efficient than [1], and our labeling can extract images which are not exactly the same, but vary in fixed spatial locations (see below). Read it on arxiv soon.
+In this work, we have "extracted" training images from several diffusion models, similar to [1]. These are generated images which are exact copies of training set ones. Our attack is more efficient than [1], and our labeling can extract images which are not exactly the same, but vary in fixed spatial locations (see [below](https://github.com/ryanwebster90/onestep-extraction/tree/main#template-verbatims). Read it on arxiv soon.
 
 To verify our attack you'll have to first generate some images, then download the corresponding images from LAION-2B, and our set of templates / masks, then verify theiry MSE is indeed low enough (or by inspection). The below code will verify our whitebox attack on SDV1:
 
