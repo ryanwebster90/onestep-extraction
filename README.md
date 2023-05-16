@@ -17,7 +17,7 @@ sh verify_sdv1_wb_attack.sh
 
 # Some regurgitated prompts
 
-# Midjourney
+Midjourney
 | prompt | type |
 | -------- | --------|
 | Prince Reunites With Warner Brothers, Plans New Album --seed 2 --stylize 0 --stop 10  | Exact   |
@@ -25,7 +25,7 @@ sh verify_sdv1_wb_attack.sh
 | Design Art Light in Dense Fall Forest Landscape Oversized Circle Wall Art --seed 4 --q 2    | Template  |
 | Shaw Floors Spice It Up Tyler Taupe 00103_E9013 --seed 16 --stylize 0 --stop 10   | Template   |
 
-# Stable Diffusion V1 blackbox
+Stable Diffusion V1 blackbox
 | prompt | type |
 | -------- | --------|
 | Galaxy Women's Leather Boots | Template   |
@@ -33,7 +33,7 @@ sh verify_sdv1_wb_attack.sh
 | Full body U-Zip main opening - Full body U-Zip main opening on front of bag for easy unloading when you get to camp    | Exact    |
 | Mothers influence on her young hippo   | Exact    |
 
-# Deep Image Floyd
+Deep Image Floyd
 | prompt | type |
 | -------- | --------|
 | Designart Green Abstract Metal Grill ContemporaryArt On Canvas - 5 Panels | Template   |
@@ -41,7 +41,7 @@ sh verify_sdv1_wb_attack.sh
 | Foyer painted in HABANERO   | Template  |
 | Shaw Floors Value Collections Sandy Hollow Cl II Net Alpine Fern 00305_5E510  | Template   |
 
-# Stable Diffusion V2 blackbox
+Stable Diffusion V2 blackbox
 | prompt | type |
 | -------- | --------|
 | Pencil pleat curtains in collection Velvet, fabric: 704-18  | Template   |
