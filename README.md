@@ -13,7 +13,7 @@ sh verify_sdv1_wb_attack.sh
 - [ ] Perform our whitebox and blackbox attack vs. SDV1, SDV2, DeepIF, etc.
 - [ ] Verify with retrieval / template creation
 
-[1] Extracting training data from diffusion models. arXiv preprint arXiv:2301.13188, 2023.
+[1] [Extracting training data from diffusion models. arXiv preprint arXiv:2301.13188, 2023](https://arxiv.org/abs/2301.13188)
 
 # Some regurgitated prompts
 Regurgitated prompts can be found in the following parquets. They will be labeled as 'MV','RV' or 'TV' in the 'overfit_type' field:
