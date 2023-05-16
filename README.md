@@ -28,7 +28,8 @@ Regurgitated prompts can be found in the following parquets. They will be labele
 [realistic vision](https://huggingface.co/datasets/fraisdufour/templates-verbs/resolve/main/groundtruth_parquets/realistic_vision_sdv1_edge_groundtruth.parquet)
 
 
-Midjourney
+
+Midjourney examples
 | prompt | type |
 | -------- | --------|
 | Prince Reunites With Warner Brothers, Plans New Album --seed 2 --stylize 0 --stop 10  | Exact   |
@@ -36,7 +37,7 @@ Midjourney
 | Design Art Light in Dense Fall Forest Landscape Oversized Circle Wall Art --seed 4 --q 2    | Template  |
 | Shaw Floors Spice It Up Tyler Taupe 00103_E9013 --seed 16 --stylize 0 --stop 10   | Template   |
 
-Stable Diffusion V1 blackbox
+Stable Diffusion V1
 | prompt | type |
 | -------- | --------|
 | Galaxy Women's Leather Boots | Template   |
@@ -52,7 +53,7 @@ Deep Image Floyd
 | Foyer painted in HABANERO   | Template  |
 | Shaw Floors Value Collections Sandy Hollow Cl II Net Alpine Fern 00305_5E510  | Template   |
 
-Stable Diffusion V2 blackbox
+Stable Diffusion V2
 | prompt | type |
 | -------- | --------|
 | Pencil pleat curtains in collection Velvet, fabric: 704-18  | Template   |
