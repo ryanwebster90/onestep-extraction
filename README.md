@@ -1,5 +1,6 @@
 # onestep-extraction 
-In this work, we have "extracted" training images from several diffusion models, similar to [1]. These are generated images which are exact copies of training set ones. Our attack is more efficient than [1], and our labeling can extract images which are not exactly the same, but vary in fixed spatial locations (see [below](https://github.com/ryanwebster90/onestep-extraction/tree/main#template-verbatims) ). Read it on arxiv soon.
+In this work, we have "extracted" training images from several diffusion models, similar to [1]. These are generated images which are exact copies of training set ones. Our attack is more efficient than [1], and our labeling can extract images which are not exactly the same, but vary in fixed spatial locations (see [below](https://github.com/ryanwebster90/onestep-extraction/tree/main#template-verbatims) ). Read about it on arxiv [A Reproducible Extraction of Training Images from
+Diffusion Models](https://arxiv.org/abs/2305.08694)
 
 To verify our attack you'll have to first generate some images, then download the corresponding images from LAION-2B, and our set of templates / masks, then verify theiry MSE is indeed low enough (or by inspection). The below code will verify our whitebox attack on SDV1:
 
@@ -14,7 +15,8 @@ sh verify_sdv1_wb_attack.sh
 - [ ] Verify with retrieval / template creation
 
 [1] [Extracting training data from diffusion models. arXiv preprint arXiv:2301.13188, 2023](https://arxiv.org/abs/2301.13188)
-
+[2] [A Reproducible Extraction of Training Images from
+Diffusion Models](https://arxiv.org/abs/2305.08694)
 # Some regurgitated prompts
 Regurgitated prompts can be found in the following parquets. They will be labeled as 'MV','RV' or 'TV' in the 'overfit_type' field:
 
