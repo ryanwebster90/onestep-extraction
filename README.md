@@ -5,10 +5,8 @@ To verify our attack you'll have to first generate some images, then download th
 
 ```bash
 pip install -r requirements.txt
-sh 
+sh verify_sdv1_wb_attack.sh 
 ```
-
-
 
 [1] Extracting training data from diffusion models. arXiv preprint arXiv:2301.13188, 2023.
 
@@ -17,7 +15,12 @@ sh
 - [x] Verify our ground truth
 - [ ] Perform our whitebox and blackbox attack vs. SDV1, SDV2, DeepIF, etc.
 - [ ] Verify with retrieval / template creation
-- [ ] 
+
+# some other files
+
+[Top 30K scores for the whitebox attack](https://huggingface.co/datasets/fraisdufour/sd-stuff/resolve/main/membership_attack_top30k.parquet)
+[The prompts for the 2M most duplicated images](https://huggingface.co/datasets/fraisdufour/sd-stuff/resolve/main/most_duplicated_metadata.parquet)
+
 
 # Template Verbatims
 
