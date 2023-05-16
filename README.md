@@ -30,15 +30,15 @@ Regurgitated prompts can be found in the following parquets. They will be labele
 
 [realistic vision](https://huggingface.co/datasets/fraisdufour/templates-verbs/resolve/main/groundtruth_parquets/realistic_vision_sdv1_edge_groundtruth.parquet)
 
-
+*** NOTE: the midjourney images only apply to v4. The new version seems to have mitigated the problem. ***
 
 Midjourney examples
 | prompt | type |
 | -------- | --------|
-| Prince Reunites With Warner Brothers, Plans New Album --seed 2 --stylize 0 --stop 10  | Exact   |
-| Will Ferrell, John C. Reilly in Talks for <i>Border Guards</i> --seed 0 --stylize 0 --stop 10   | Exact   |
-| Design Art Light in Dense Fall Forest Landscape Oversized Circle Wall Art --seed 4 --q 2    | Template  |
-| Shaw Floors Spice It Up Tyler Taupe 00103_E9013 --seed 16 --stylize 0 --stop 10   | Template   |
+| Prince Reunites With Warner Brothers, Plans New Album --seed 2 --stylize 0 --stop 10 --v 4 | Exact   |
+| Will Ferrell, John C. Reilly in Talks for <i>Border Guards</i> --seed 0 --stylize 0 --stop 10 --v 4  | Exact   |
+| Design Art Light in Dense Fall Forest Landscape Oversized Circle Wall Art --seed 4 --q 2 --v 4 | Template  |
+| Shaw Floors Spice It Up Tyler Taupe 00103_E9013 --seed 16 --stylize 0 --stop 10 --v 4 | Template   |
 
 Stable Diffusion V1
 | prompt | type |
