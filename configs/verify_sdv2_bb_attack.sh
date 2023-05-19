@@ -1,0 +1,2 @@
+python synthall_from_parquet.py --model="stabilityai/stable-diffusion-2-base" --outfolder=sdv2_bb_synthall/ --parquet_file=groundtruth_parquets/sdv2_bb_edge_groundtruth.parquet --steps=32 --n_seeds=4
+python gather_groundtruth_labels.py --gen_folder=sdv2_bb_synthall/ --out_parquet_file=sdv2_bb_attack_gt_verify.parquet --parquet_file=groundtruth_parquets/sdv2_bb_edge_groundtruth.parquet --download_reals=True

@@ -1,0 +1,2 @@
+python synthall_from_parquet.py
+python gather_groundtruth_labels.py --gen_folder=gen_synthall/ --out_parquet_file=sdv1_wb_attack_gt_verify.parquet --parquet_file=groundtruth_parquets/sdv1_wb_groundtruth.parquet
