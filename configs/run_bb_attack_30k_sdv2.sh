@@ -1,0 +1,1 @@
+python run_bb_attack.py --out_parquet_file=bb_attack_sdv2_30k.parquet --n_captions=-1 --outfolder=gen_onestep/sdv2_bb_attack/ --n_seeds=4 --model="stabilityai/stable-diffusion-2-base"
