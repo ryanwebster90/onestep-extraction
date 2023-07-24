@@ -1,0 +1,1 @@
+python run_bb_attack.py --out_parquet_file=bb_attack_sdv1_30k.parquet --n_captions=-1 --outfolder=gen_onestep/sdv1_bb_attack/ --n_seeds=4
