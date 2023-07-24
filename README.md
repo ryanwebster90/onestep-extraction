@@ -8,11 +8,27 @@ To verify our attack you'll have to first generate some images, then download th
 pip install -r requirements.txt
 sh verify_sdv1_wb_attack.sh 
 ```
+# Update 7.24
+You may now run our WB and BB attacks versus SDV1 and SDV2. If you want to run the BB attack versus SDV2 for instance, you can run:
+```bash
+sh configs/run_bb_attack_30k_sdv2.sh
+```
+This code will download a file membership_attack_top30k.parquet from huggingface which contains 30k captions as the top scores of our whitebox attack on SDV1 (the corresponding "bb" attacks vs. SDV1 are not entirely BB, but are there to study the attack). A blackbox attack can be performed on a much larger set, selected through deduplication, with:
+```bash
+sh configs/run_wb_attack_2M.sh
+```
 
-# roadmap
+# Roadmap
 - [x] Verify our ground truth
-- [ ] Perform our whitebox and blackbox attack vs. SDV1, SDV2, DeepIF, etc.
-- [ ] Verify with retrieval / template creation
+- [x] Perform our whitebox and blackbox attack vs. SDV1, SDV2 (july 2023)
+- [ ] Carlini attack doing full synthesis over many seeds
+- [ ] Composed attacks (ours + carlini on top scores)
+- [ ] Compute duplicates extracted / precision curve
+- [ ] Multi-gpu / mutli node large scale attacks
+- [ ] Perform wb/bb attack against DeepIF
+- [ ] Retrieve images using CLIP index
+- [ ] Pipeline for mask creation
+- [ ] End2end attack on colab on a small set of captions
 
 [1] [Extracting training data from diffusion models. arXiv preprint arXiv:2301.13188, 2023](https://arxiv.org/abs/2301.13188)
 [2] [A Reproducible Extraction of Training Images from
