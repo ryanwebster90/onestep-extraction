@@ -14,12 +14,11 @@ import torch
 from huggingface_hub import snapshot_download
 
 @torch.no_grad()
-def synth_images(parquet_file=None,steps=16,n_seeds=2,seed_offset=0,make_grid_every=0,outfolder='gen_synthall/',caption_offset=0,n_captions=100,model='runwayml/stable-diffusion-v1-5',download_parquets=True):
+def synth_images(parquet_file='groundtruth_parquets/sdv1_wb_groundtruth.parquet',steps=16,n_seeds=2,seed_offset=0,make_grid_every=0,outfolder='gen_synthall/',caption_offset=0,n_captions=100,model='runwayml/stable-diffusion-v1-5',download_parquets=True):
     
     if download_parquets and parquet_file==None:
         print('downloading paruqets...')
         p = snapshot_download(repo_id="fraisdufour/templates-verbs", repo_type="dataset",local_dir='.')
-        parquet_file='groundtruth_parquets/sdv1_wb_groundtruth.parquet'
     
     d = pd.read_parquet(parquet_file)
     from diffusers import StableDiffusionPipeline, LMSDiscreteScheduler
