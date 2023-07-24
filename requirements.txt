@@ -6,3 +6,5 @@ pandas
 numpy
 pillow
 huggingface_hub
+fire
+transformers
